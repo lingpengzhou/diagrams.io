@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-12-16T06:44:31.560Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36" etag="XbcQ9w4B0xOx_f6t7FtL" version="15.9.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-17T01:48:40.853Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36" etag="HbqRtMrfEwgvDWCu4_NB" version="15.9.6" type="github">
   <diagram id="RscIHtWKj6IY3PeKilFn" name="Page-1">
-    <mxGraphModel dx="964" dy="587" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1134" dy="691" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -34,11 +34,47 @@
         <mxCell id="5OAfbn5u2GLFjaEY1HEU-3" value="&lt;font color=&quot;#1a1a1a&quot;&gt;getVFrameInsStatus(w, r)&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="10" y="240" width="190" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="5OAfbn5u2GLFjaEY1HEU-20" value="调用ffmpeg截帧" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#1A1A1A;" edge="1" parent="1" source="5OAfbn5u2GLFjaEY1HEU-9" target="5OAfbn5u2GLFjaEY1HEU-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="395" y="350" />
+              <mxPoint x="395" y="350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="5OAfbn5u2GLFjaEY1HEU-9" value="&lt;font color=&quot;#1a1a1a&quot;&gt;doVFrame(w, r)&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="300" y="240" width="190" height="60" as="geometry" />
         </mxCell>
         <mxCell id="5OAfbn5u2GLFjaEY1HEU-10" value="&lt;font color=&quot;#1a1a1a&quot;&gt;closeVFrameIns(w, r)&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="610" y="240" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5OAfbn5u2GLFjaEY1HEU-19" value="取出对应帧" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#1A1A1A;" edge="1" parent="1" source="5OAfbn5u2GLFjaEY1HEU-16" target="5OAfbn5u2GLFjaEY1HEU-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5OAfbn5u2GLFjaEY1HEU-16" value="&lt;font color=&quot;#1a1a1a&quot;&gt;runStreamVFrame(vframeIns *VFrameIns)&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="300" y="400" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5OAfbn5u2GLFjaEY1HEU-22" value="发送给Ai接口处理" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#1A1A1A;" edge="1" parent="1" source="5OAfbn5u2GLFjaEY1HEU-18" target="5OAfbn5u2GLFjaEY1HEU-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5OAfbn5u2GLFjaEY1HEU-18" value="&lt;font color=&quot;#1a1a1a&quot;&gt;runStreamVFrame(vframeIns *VFrameIns)&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="300" y="530" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5OAfbn5u2GLFjaEY1HEU-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#1A1A1A;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="5OAfbn5u2GLFjaEY1HEU-21" target="5OAfbn5u2GLFjaEY1HEU-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="660" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5OAfbn5u2GLFjaEY1HEU-25" value="处理过后的消息发送kafka" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#1A1A1A;" vertex="1" connectable="0" parent="5OAfbn5u2GLFjaEY1HEU-24">
+          <mxGeometry x="-0.3034" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5OAfbn5u2GLFjaEY1HEU-21" value="&lt;font color=&quot;#1a1a1a&quot;&gt;SendDataToAi&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="300" y="660" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5OAfbn5u2GLFjaEY1HEU-23" value="kafka&lt;br&gt;Topic:vss-audit" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fontColor=#1A1A1A;" vertex="1" parent="1">
+          <mxGeometry x="960" y="405" width="80" height="180" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
