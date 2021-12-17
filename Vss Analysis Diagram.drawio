@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-12-17T01:50:14.778Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36" etag="bdyZctAwX59BqExd3wtv" version="15.9.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-17T05:50:54.246Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36" etag="2RPaMiVbyLFytF5w4FkZ" version="15.9.6" type="github">
   <diagram id="RscIHtWKj6IY3PeKilFn" name="Page-1">
-    <mxGraphModel dx="1384" dy="731" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
+    <mxGraphModel dx="1214" dy="731" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -73,8 +73,14 @@
         <mxCell id="5OAfbn5u2GLFjaEY1HEU-21" value="&lt;font color=&quot;#1a1a1a&quot;&gt;SendDataToAi&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="300" y="660" width="190" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="5OAfbn5u2GLFjaEY1HEU-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#1A1A1A;" edge="1" parent="1" source="5OAfbn5u2GLFjaEY1HEU-23" target="5OAfbn5u2GLFjaEY1HEU-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="5OAfbn5u2GLFjaEY1HEU-23" value="kafka&lt;br&gt;Topic:vss-audit" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fontColor=#1A1A1A;" vertex="1" parent="1">
-          <mxGeometry x="960" y="405" width="80" height="180" as="geometry" />
+          <mxGeometry x="774" y="403" width="80" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="5OAfbn5u2GLFjaEY1HEU-26" value="应用消费模块" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#1A1A1A;" vertex="1" parent="1">
+          <mxGeometry x="979" y="463" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
