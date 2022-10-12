@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-12T06:51:48.020Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="QwURiqlyFa4d307FbPAk" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-12T06:58:46.718Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="sxmRS-QdH-nsYIXgH5Ee" version="20.4.0" type="github">
   <diagram id="arvyNKeZICVCUe79Kb5X" name="第 1 页">
     <mxGraphModel dx="960" dy="587" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -186,19 +186,13 @@
         <mxCell id="ujevJZKqID5bwqPzUARX-81" value="&lt;b&gt;冷分片收缩&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;glass=1;dashed=1;labelBorderColor=none;strokeWidth=2;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="400" y="2144" width="84" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ujevJZKqID5bwqPzUARX-82" value="&lt;span&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;通过新生成的主键对已存储的数据以及后续写操作进行热冷重分片&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="248" y="650" width="270" height="70" as="geometry" />
-        </mxCell>
         <mxCell id="ujevJZKqID5bwqPzUARX-85" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;strokeWidth=2;" edge="1" parent="1" source="ujevJZKqID5bwqPzUARX-83" target="ujevJZKqID5bwqPzUARX-84">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ujevJZKqID5bwqPzUARX-83" value="&lt;span&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;设置动态分片因子&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="ujevJZKqID5bwqPzUARX-83" value="&lt;b style=&quot;font-size: 14px;&quot;&gt;将分片因子通过随机数的方式拼接在主键的头部或者尾部&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="248" y="424" width="270" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="ujevJZKqID5bwqPzUARX-86" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;strokeWidth=2;" edge="1" parent="1" source="ujevJZKqID5bwqPzUARX-84" target="ujevJZKqID5bwqPzUARX-82">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="ujevJZKqID5bwqPzUARX-84" value="&lt;span&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;将分片因子通过随机数的方式拼接在主键的头部或者尾部&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="ujevJZKqID5bwqPzUARX-84" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;span&gt;通过新生成的主键对已存储的数据以及后续写操作重新进行热冷分片&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;/b&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="248" y="536" width="270" height="70" as="geometry" />
         </mxCell>
         <mxCell id="ujevJZKqID5bwqPzUARX-87" value="" style="endArrow=none;html=1;fontSize=14;strokeWidth=2;strokeColor=default;startArrow=none;startFill=0;curved=1;endFill=0;" edge="1" parent="1">
@@ -265,19 +259,6 @@
               <mxPoint x="518" y="526" />
             </Array>
           </mxGeometry>
-        </mxCell>
-        <mxCell id="ujevJZKqID5bwqPzUARX-102" value="" style="endArrow=none;html=1;fontSize=14;strokeWidth=2;strokeColor=default;startArrow=none;startFill=0;curved=1;endFill=0;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="515" y="685" as="sourcePoint" />
-            <mxPoint x="639" y="637" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="565" y="685" />
-              <mxPoint x="515" y="635" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ujevJZKqID5bwqPzUARX-103" value="S6" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;glass=1;dashed=1;labelBorderColor=none;strokeWidth=2;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="650" y="617" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
