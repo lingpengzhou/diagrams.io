@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-12T01:26:39.351Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="CW5FBi90xbIGoci4AKSk" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-12T02:56:56.241Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="V262QZXDkIxV1Uhaxt9u" version="20.4.0" type="github">
   <diagram id="arvyNKeZICVCUe79Kb5X" name="第 1 页">
     <mxGraphModel dx="960" dy="587" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -21,6 +21,30 @@
         </mxCell>
         <mxCell id="ujevJZKqID5bwqPzUARX-6" value="对新的主键进行重分片操作" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="250" y="610" width="270" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ujevJZKqID5bwqPzUARX-7" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="180" y="825" width="260" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="ujevJZKqID5bwqPzUARX-9" value="分区1 (1~16384)" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="190" y="870" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ujevJZKqID5bwqPzUARX-18" value="处理器1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=2;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="315" y="835" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ujevJZKqID5bwqPzUARX-23" value="分区3 (1~16384)" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="315" y="870" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ujevJZKqID5bwqPzUARX-25" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="480" y="825" width="260" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="ujevJZKqID5bwqPzUARX-26" value="分区2 (1~16384)" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="490" y="870" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ujevJZKqID5bwqPzUARX-27" value="处理器2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=2;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="615" y="835" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ujevJZKqID5bwqPzUARX-28" value="分区4 (1~16384)" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="615" y="870" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
