@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-12T10:20:55.135Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="7uEQHW6CPtFlO585egsT" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-12T10:21:25.101Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="dsctUX2d6ABYotZMZ1GJ" version="20.4.0" type="github">
   <diagram id="arvyNKeZICVCUe79Kb5X" name="第 1 页">
     <mxGraphModel dx="960" dy="587" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -172,7 +172,7 @@
         <mxCell id="ujevJZKqID5bwqPzUARX-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="1" source="ujevJZKqID5bwqPzUARX-79" target="ujevJZKqID5bwqPzUARX-70">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ujevJZKqID5bwqPzUARX-78" value="hash散列后的结果为32000" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;" vertex="1" connectable="0" parent="ujevJZKqID5bwqPzUARX-77">
+        <mxCell id="ujevJZKqID5bwqPzUARX-78" value="冷分片后hash散列后的结果为32000，落在原来的分区2中" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;" vertex="1" connectable="0" parent="ujevJZKqID5bwqPzUARX-77">
           <mxGeometry x="-0.3164" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
