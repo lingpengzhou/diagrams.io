@@ -1,9 +1,137 @@
-<mxfile host="app.diagrams.net" modified="2023-10-17T02:37:29.546Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" version="22.0.4" etag="CVjpOBEqCXbWy9uwv9lN" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-17T03:33:37.725Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="hrFQeRvTGXsyIGmFvW_Q" version="22.0.4" type="github">
   <diagram name="第 1 页" id="wl2nPcjvTcxxcUaao17U">
-    <mxGraphModel>
+    <mxGraphModel dx="1562" dy="902" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Kgljz-EUo5P3jhQpldot-119" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Kgljz-EUo5P3jhQpldot-2" target="Kgljz-EUo5P3jhQpldot-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kgljz-EUo5P3jhQpldot-120" value="设备流离线" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Kgljz-EUo5P3jhQpldot-119">
+          <mxGeometry x="-0.304" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Kgljz-EUo5P3jhQpldot-2" value="kafka消费" style="html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.cloud;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="130" y="107.5" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Kgljz-EUo5P3jhQpldot-5" value="任务删除" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="880" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Kgljz-EUo5P3jhQpldot-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Kgljz-EUo5P3jhQpldot-15" target="Kgljz-EUo5P3jhQpldot-85">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kgljz-EUo5P3jhQpldot-15" value="新建同步检查任务（开始时间，过期时间）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="210" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Kgljz-EUo5P3jhQpldot-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Kgljz-EUo5P3jhQpldot-16" target="Kgljz-EUo5P3jhQpldot-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kgljz-EUo5P3jhQpldot-16" value="三分钟已重复消息检查" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="710" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Kgljz-EUo5P3jhQpldot-20" value="发送短信" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="430" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Kgljz-EUo5P3jhQpldot-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Kgljz-EUo5P3jhQpldot-43" target="Kgljz-EUo5P3jhQpldot-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="850" y="127.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Kgljz-EUo5P3jhQpldot-74" value="无" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Kgljz-EUo5P3jhQpldot-73">
+          <mxGeometry x="0.025" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Kgljz-EUo5P3jhQpldot-117" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Kgljz-EUo5P3jhQpldot-43" target="Kgljz-EUo5P3jhQpldot-114">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kgljz-EUo5P3jhQpldot-118" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Kgljz-EUo5P3jhQpldot-117">
+          <mxGeometry x="-0.3511" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Kgljz-EUo5P3jhQpldot-43" value="设备流状态同步检查任务" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="80" width="100" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="Kgljz-EUo5P3jhQpldot-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Kgljz-EUo5P3jhQpldot-46" target="Kgljz-EUo5P3jhQpldot-78">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kgljz-EUo5P3jhQpldot-92" value="在线" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Kgljz-EUo5P3jhQpldot-91">
+          <mxGeometry x="-0.2947" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Kgljz-EUo5P3jhQpldot-94" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Kgljz-EUo5P3jhQpldot-46" target="Kgljz-EUo5P3jhQpldot-93">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kgljz-EUo5P3jhQpldot-95" value="离线" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Kgljz-EUo5P3jhQpldot-94">
+          <mxGeometry x="0.2706" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Kgljz-EUo5P3jhQpldot-46" value="是否在线" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="905" y="520" width="140" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Kgljz-EUo5P3jhQpldot-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Kgljz-EUo5P3jhQpldot-78" target="Kgljz-EUo5P3jhQpldot-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kgljz-EUo5P3jhQpldot-97" value="过期" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Kgljz-EUo5P3jhQpldot-96">
+          <mxGeometry x="0.0727" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Kgljz-EUo5P3jhQpldot-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Kgljz-EUo5P3jhQpldot-78" target="Kgljz-EUo5P3jhQpldot-85">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kgljz-EUo5P3jhQpldot-100" value="不过期" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Kgljz-EUo5P3jhQpldot-99">
+          <mxGeometry x="-0.1747" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Kgljz-EUo5P3jhQpldot-78" value="是否过期" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="660" width="140" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Kgljz-EUo5P3jhQpldot-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Kgljz-EUo5P3jhQpldot-85" target="Kgljz-EUo5P3jhQpldot-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kgljz-EUo5P3jhQpldot-85" value="一分钟周期检查状态" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="915" y="440" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Kgljz-EUo5P3jhQpldot-104" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Kgljz-EUo5P3jhQpldot-93" target="Kgljz-EUo5P3jhQpldot-103">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kgljz-EUo5P3jhQpldot-105" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Kgljz-EUo5P3jhQpldot-104">
+          <mxGeometry x="0.0833" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Kgljz-EUo5P3jhQpldot-109" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Kgljz-EUo5P3jhQpldot-93" target="Kgljz-EUo5P3jhQpldot-107">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kgljz-EUo5P3jhQpldot-110" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Kgljz-EUo5P3jhQpldot-109">
+          <mxGeometry x="-0.0389" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Kgljz-EUo5P3jhQpldot-93" value="是否连续三次离线" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="520" width="140" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Kgljz-EUo5P3jhQpldot-106" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Kgljz-EUo5P3jhQpldot-103" target="Kgljz-EUo5P3jhQpldot-85">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kgljz-EUo5P3jhQpldot-103" value="离线次数计数器相关处理" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="350" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Kgljz-EUo5P3jhQpldot-111" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Kgljz-EUo5P3jhQpldot-107" target="Kgljz-EUo5P3jhQpldot-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kgljz-EUo5P3jhQpldot-107" value="任务删除" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="710" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Kgljz-EUo5P3jhQpldot-114" value="更新以后任务的过期时间" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="210" width="120" height="50" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
