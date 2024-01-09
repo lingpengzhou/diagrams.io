@@ -1,14 +1,18 @@
-<mxfile host="app.diagrams.net" modified="2024-01-09T09:12:56.510Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="Kxw6cXaU70Jgw4TYSRDr" version="22.1.17" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-09T09:17:16.649Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="XlqgA1QKkGlsbkCjRsQm" version="22.1.17" type="github">
   <diagram name="第 1 页" id="7ssoi6EnkKL8qnQMHh6J">
     <mxGraphModel dx="1562" dy="892" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Zgpwbv9MW10taTukSVXn-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Zgpwbv9MW10taTukSVXn-1" target="Zgpwbv9MW10taTukSVXn-2" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="Zgpwbv9MW10taTukSVXn-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" target="Zgpwbv9MW10taTukSVXn-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="160" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="Zgpwbv9MW10taTukSVXn-1" value="vss-analysis接口调用" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="300" y="100" width="120" height="60" as="geometry" />
+        <mxCell id="M122LZzVResHZE1smLPA-47" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Zgpwbv9MW10taTukSVXn-3">
+          <mxGeometry x="-0.6452" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="Zgpwbv9MW10taTukSVXn-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="Zgpwbv9MW10taTukSVXn-2" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -166,6 +170,35 @@
         </mxCell>
         <mxCell id="M122LZzVResHZE1smLPA-30" value="入统计表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="520" y="1380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M122LZzVResHZE1smLPA-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="M122LZzVResHZE1smLPA-38" target="M122LZzVResHZE1smLPA-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M122LZzVResHZE1smLPA-38" value="先查找统计表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M122LZzVResHZE1smLPA-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="M122LZzVResHZE1smLPA-42" target="M122LZzVResHZE1smLPA-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M122LZzVResHZE1smLPA-42" value="再去增量表里面取对应的分钟值" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1610" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M122LZzVResHZE1smLPA-44" value="统计输出" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1710" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M122LZzVResHZE1smLPA-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="M122LZzVResHZE1smLPA-46" target="M122LZzVResHZE1smLPA-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M122LZzVResHZE1smLPA-50" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="M122LZzVResHZE1smLPA-49">
+          <mxGeometry x="0.1333" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="M122LZzVResHZE1smLPA-46" value="Vss Analysis接口调用成功" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="80" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="M122LZzVResHZE1smLPA-48" value="写入日志" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="95" width="90" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
