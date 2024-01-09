@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-09T08:52:33.697Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="5TsR8AszA8q7nzXnyrFk" version="22.1.17" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-09T09:12:56.510Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="Kxw6cXaU70Jgw4TYSRDr" version="22.1.17" type="github">
   <diagram name="第 1 页" id="7ssoi6EnkKL8qnQMHh6J">
     <mxGraphModel dx="1562" dy="892" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -19,7 +19,7 @@
           <mxGeometry x="305" y="210" width="110" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Zgpwbv9MW10taTukSVXn-13" value="增量表（10分钟）" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="305" y="680" width="140" height="270" as="geometry">
+          <mxGeometry x="150" y="1030" width="140" height="270" as="geometry">
             <mxRectangle x="120" y="750" width="130" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -48,7 +48,7 @@
           <mxGeometry y="240" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Zgpwbv9MW10taTukSVXn-36" value="统计表（小时）" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="505" y="680" width="140" height="270" as="geometry">
+          <mxGeometry x="350" y="1030" width="140" height="270" as="geometry">
             <mxRectangle x="120" y="750" width="130" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -151,6 +151,21 @@
         </mxCell>
         <mxCell id="M122LZzVResHZE1smLPA-23" value="将对应的Redis 的值Count++" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="315" y="500" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="M122LZzVResHZE1smLPA-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="M122LZzVResHZE1smLPA-27" target="M122LZzVResHZE1smLPA-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M122LZzVResHZE1smLPA-27" value="Cron：整点触发" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M122LZzVResHZE1smLPA-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="M122LZzVResHZE1smLPA-28" target="M122LZzVResHZE1smLPA-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M122LZzVResHZE1smLPA-28" value="取出当前整点前一小时的数据进行统计" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="1380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M122LZzVResHZE1smLPA-30" value="入统计表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="1380" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
