@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.12">
   <diagram name="第 1 页" id="ef7YWm0MaQn3jJmsrefL">
-    <mxGraphModel dx="988" dy="605" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1411" dy="864" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -8,19 +8,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Hxi1NaCuM7jEuVNyhXye-2" value="开始" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
-          <mxGeometry x="160" y="80" width="120" height="40" as="geometry" />
+          <mxGeometry x="160" y="150" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Hxi1NaCuM7jEuVNyhXye-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Hxi1NaCuM7jEuVNyhXye-4" target="Hxi1NaCuM7jEuVNyhXye-33">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Hxi1NaCuM7jEuVNyhXye-4" value="AI API接口调用" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="1">
-          <mxGeometry x="170" y="220" width="100" height="80" as="geometry" />
+          <mxGeometry x="170" y="240" width="100" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Hxi1NaCuM7jEuVNyhXye-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Hxi1NaCuM7jEuVNyhXye-6" target="Hxi1NaCuM7jEuVNyhXye-17">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Hxi1NaCuM7jEuVNyhXye-6" value="入缓存" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
-          <mxGeometry x="552" y="240" width="90" height="40" as="geometry" />
+          <mxGeometry x="480" y="260" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Hxi1NaCuM7jEuVNyhXye-7" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="Hxi1NaCuM7jEuVNyhXye-10" target="Hxi1NaCuM7jEuVNyhXye-12">
           <mxGeometry x="0.3317" y="20" relative="1" as="geometry">
@@ -32,20 +32,22 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Hxi1NaCuM7jEuVNyhXye-9" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;" edge="1" parent="1" source="Hxi1NaCuM7jEuVNyhXye-10">
-          <mxGeometry y="10" relative="1" as="geometry">
+        <mxCell id="Hxi1NaCuM7jEuVNyhXye-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Hxi1NaCuM7jEuVNyhXye-10" target="Hxi1NaCuM7jEuVNyhXye-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Hxi1NaCuM7jEuVNyhXye-39" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Hxi1NaCuM7jEuVNyhXye-38">
+          <mxGeometry x="0.3686" y="-3" relative="1" as="geometry">
             <mxPoint as="offset" />
-            <mxPoint x="460" y="550" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Hxi1NaCuM7jEuVNyhXye-10" value="是否在Redis有对应消息" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="1">
-          <mxGeometry x="160" y="510" width="100" height="80" as="geometry" />
+          <mxGeometry x="150" y="590" width="100" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Hxi1NaCuM7jEuVNyhXye-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Hxi1NaCuM7jEuVNyhXye-12" target="Hxi1NaCuM7jEuVNyhXye-19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Hxi1NaCuM7jEuVNyhXye-12" value="新建消息入Redis" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
-          <mxGeometry x="150" y="910" width="120" height="40" as="geometry" />
+          <mxGeometry x="140" y="800" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Hxi1NaCuM7jEuVNyhXye-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Hxi1NaCuM7jEuVNyhXye-17" target="Hxi1NaCuM7jEuVNyhXye-18">
           <mxGeometry relative="1" as="geometry" />
@@ -64,16 +66,22 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Hxi1NaCuM7jEuVNyhXye-17" value="是否超过5分钟" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="1">
-          <mxGeometry x="692" y="220" width="100" height="80" as="geometry" />
+          <mxGeometry x="665" y="240" width="100" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Hxi1NaCuM7jEuVNyhXye-18" value="Kafka" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="711" y="354" width="70" height="150" as="geometry" />
+          <mxGeometry x="680" y="400" width="70" height="150" as="geometry" />
         </mxCell>
         <mxCell id="Hxi1NaCuM7jEuVNyhXye-19" value="Redis" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="520" y="890" width="120" height="80" as="geometry" />
+          <mxGeometry x="660" y="810" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Hxi1NaCuM7jEuVNyhXye-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0.547;entryY=-0.024;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Hxi1NaCuM7jEuVNyhXye-18" target="Hxi1NaCuM7jEuVNyhXye-10">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="491" y="503" />
+              <mxPoint x="491" y="480" />
+              <mxPoint x="215" y="480" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="Hxi1NaCuM7jEuVNyhXye-21" value="接受Kafka消息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Hxi1NaCuM7jEuVNyhXye-20">
           <mxGeometry x="-0.1654" relative="1" as="geometry">
@@ -89,10 +97,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Hxi1NaCuM7jEuVNyhXye-24" value="与消息最新时间对比是否超过10分钟" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="1">
-          <mxGeometry x="460" y="510" width="100" height="80" as="geometry" />
+          <mxGeometry x="490" y="550" width="100" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Hxi1NaCuM7jEuVNyhXye-25" value="Mysql" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="745" y="680" width="60" height="80" as="geometry" />
+          <mxGeometry x="690" y="610" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Hxi1NaCuM7jEuVNyhXye-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Hxi1NaCuM7jEuVNyhXye-24" target="Hxi1NaCuM7jEuVNyhXye-25">
           <mxGeometry relative="1" as="geometry" />
@@ -106,7 +114,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Hxi1NaCuM7jEuVNyhXye-29" value="更新计数后重新入Redis" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="450" y="700" width="120" height="60" as="geometry" />
+          <mxGeometry x="480" y="700" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Hxi1NaCuM7jEuVNyhXye-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Hxi1NaCuM7jEuVNyhXye-33" target="Hxi1NaCuM7jEuVNyhXye-34">
           <mxGeometry relative="1" as="geometry" />
@@ -116,22 +124,14 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Hxi1NaCuM7jEuVNyhXye-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Hxi1NaCuM7jEuVNyhXye-33">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="424" y="260" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Hxi1NaCuM7jEuVNyhXye-33" value="状态码是否200" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="310" y="220" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="Hxi1NaCuM7jEuVNyhXye-34" value="丢弃" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="20" y="450" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="Hxi1NaCuM7jEuVNyhXye-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Hxi1NaCuM7jEuVNyhXye-36" target="Hxi1NaCuM7jEuVNyhXye-6">
+        <mxCell id="Hxi1NaCuM7jEuVNyhXye-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Hxi1NaCuM7jEuVNyhXye-33" target="Hxi1NaCuM7jEuVNyhXye-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Hxi1NaCuM7jEuVNyhXye-36" value="写入日志系统" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
-          <mxGeometry x="426" y="240" width="90" height="40" as="geometry" />
+        <mxCell id="Hxi1NaCuM7jEuVNyhXye-33" value="是否触发移动侦测" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="240" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Hxi1NaCuM7jEuVNyhXye-34" value="丢弃" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="390" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
