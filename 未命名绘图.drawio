@@ -4,11 +4,45 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="3HEjkA3OWnDrw-g19RdO-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="170" y="80" width="120" height="60" as="geometry" />
+        <mxCell id="-yPmq9s3Uo_zZ_bbpHA7-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3HEjkA3OWnDrw-g19RdO-1" target="-yPmq9s3Uo_zZ_bbpHA7-2">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="-yPmq9s3Uo_zZ_bbpHA7-1" value="Text" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="90" y="40" width="60" height="30" as="geometry" />
+        <mxCell id="3HEjkA3OWnDrw-g19RdO-1" value="任务状态为停用" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="160" y="80" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-yPmq9s3Uo_zZ_bbpHA7-1" value="启动流程" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="40" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-yPmq9s3Uo_zZ_bbpHA7-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-yPmq9s3Uo_zZ_bbpHA7-2" target="-yPmq9s3Uo_zZ_bbpHA7-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="270" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="391" y="220" />
+              <mxPoint x="391" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-yPmq9s3Uo_zZ_bbpHA7-6" value="流启用" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-yPmq9s3Uo_zZ_bbpHA7-5">
+          <mxGeometry x="-0.2168" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-yPmq9s3Uo_zZ_bbpHA7-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="-yPmq9s3Uo_zZ_bbpHA7-2" target="-yPmq9s3Uo_zZ_bbpHA7-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-yPmq9s3Uo_zZ_bbpHA7-10" value="人工启用" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-yPmq9s3Uo_zZ_bbpHA7-9">
+          <mxGeometry x="-0.0453" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-yPmq9s3Uo_zZ_bbpHA7-2" value="启用" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="180" y="180" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-yPmq9s3Uo_zZ_bbpHA7-7" value="任务状态启用" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="350" y="290" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-yPmq9s3Uo_zZ_bbpHA7-8" value="任务状态启用" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="290" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
