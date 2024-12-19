@@ -22,6 +22,24 @@
         <mxCell id="-OGAsonb4lDyLrUkaJ-_-5" value="合同" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="270" y="390" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="-OGAsonb4lDyLrUkaJ-_-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-OGAsonb4lDyLrUkaJ-_-13" target="-OGAsonb4lDyLrUkaJ-_-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-OGAsonb4lDyLrUkaJ-_-13" value="进项发票" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-OGAsonb4lDyLrUkaJ-_-14" value="采购收货单号" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-OGAsonb4lDyLrUkaJ-_-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-OGAsonb4lDyLrUkaJ-_-16" target="-OGAsonb4lDyLrUkaJ-_-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-OGAsonb4lDyLrUkaJ-_-16" value="销项发票" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-OGAsonb4lDyLrUkaJ-_-17" value="合同" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
