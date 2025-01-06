@@ -7,7 +7,7 @@
         <mxCell id="wjVBPAoqor0SGYi-gZig-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="wjVBPAoqor0SGYi-gZig-1" target="wjVBPAoqor0SGYi-gZig-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="wjVBPAoqor0SGYi-gZig-10" value="采购单" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wjVBPAoqor0SGYi-gZig-9">
+        <mxCell id="wjVBPAoqor0SGYi-gZig-10" value="采购&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wjVBPAoqor0SGYi-gZig-9">
           <mxGeometry x="-0.2133" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -35,10 +35,10 @@
           <mxGeometry x="960" y="380" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="wjVBPAoqor0SGYi-gZig-5" value="进项发票" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="750" y="380" width="120" height="60" as="geometry" />
+          <mxGeometry x="400" y="380" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="wjVBPAoqor0SGYi-gZig-6" value="销项发票" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="400" y="380" width="120" height="60" as="geometry" />
+          <mxGeometry x="640" y="380" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="wjVBPAoqor0SGYi-gZig-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="wjVBPAoqor0SGYi-gZig-14" target="wjVBPAoqor0SGYi-gZig-3">
           <mxGeometry relative="1" as="geometry" />
@@ -61,6 +61,18 @@
         </mxCell>
         <mxCell id="wjVBPAoqor0SGYi-gZig-20" value="采购单" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="880" y="630" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wjVBPAoqor0SGYi-gZig-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="wjVBPAoqor0SGYi-gZig-26" target="wjVBPAoqor0SGYi-gZig-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wjVBPAoqor0SGYi-gZig-26" value="采购单" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wjVBPAoqor0SGYi-gZig-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="wjVBPAoqor0SGYi-gZig-28" target="wjVBPAoqor0SGYi-gZig-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wjVBPAoqor0SGYi-gZig-28" value="合同" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="640" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
