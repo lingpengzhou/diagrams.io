@@ -13,7 +13,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="wjVBPAoqor0SGYi-gZig-1" value="采购单" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="20" y="640" width="120" height="60" as="geometry" />
+          <mxGeometry x="10" y="640" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="wjVBPAoqor0SGYi-gZig-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="wjVBPAoqor0SGYi-gZig-2">
           <mxGeometry relative="1" as="geometry">
